@@ -1,0 +1,15 @@
+.option {
+    border-bottom: .3rem solid lighten($color: $widgetBackground, $amount: 10%);
+    color: $subTitle;
+    display: flex;
+    font-size: $mSize;
+    padding: $mSize $lSize;
+    justify-content: space-between;
+}
+.option__text{
+    color: $subTitle;
+    font-weight: 550;
+    font-size: 2.7rem;
+    margin: 0;
+    word-break: break-all;
+}

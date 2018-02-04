@@ -1,0 +1,24 @@
+.header {
+    background: $headerBackground;
+    color: white;
+    margin-bottom: $xlSize;
+    padding: 2.6rem 0;
+    border-bottom: .8rem solid darken($color: $headerBackground, $amount: 30%)
+}
+.header__title{
+    color: white;
+    font-size: $lSize;
+    margin: 0;
+}
+.header__subtitle{
+    color: $subTitle;
+    font-size: $mSize;
+    margin: 0;
+    font-weight: 500;
+}
+@media (max-width:$desktopBreakPoint) {
+    .header{
+        padding: $sSize;
+        margin-bottom: $sSize;
+    }
+}

@@ -1,0 +1,21 @@
+.widget {
+    background: $widgetBackground;
+    margin-bottom: $xlSize;
+}
+.widget__message {
+    margin: 0;
+    padding: $lSize;
+    text-align: center;
+    border-bottom: .3rem solid lighten($color: $widgetBackground, $amount: 10%);
+    color: $subTitle;
+}
+.widget-header {
+    background: $headerBackground;
+    color: $subTitle;
+    padding: $sSize;
+    display: flex;
+    justify-content: space-between;
+}
+.widget-header__title{
+    margin: 0;
+}

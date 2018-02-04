@@ -1,0 +1,29 @@
+.add-option-error{
+    color: $subTitle;
+    font-style: italic;
+    margin: $mSize 0 0 0;
+    padding: 0 $mSize;
+}
+.add-option{
+    display: flex;
+    flex-direction: column;
+    padding: $mSize;
+}
+.add-option__input{
+    background: $widgetBackground;
+    border: .4rem solid lighten($color: $widgetBackground, $amount: 10%);
+    color: $subTitle;
+    font-size: 2.7rem;
+    flex-grow: 1;
+    margin: 0 0 $sSize 0;
+    padding: $sSize;
+
+}
+@media (min-width:$desktopBreakPoint) {
+    .add-option {
+       flex-direction: row;
+    }
+    .add-option__input{
+        margin: 0 $sSize;
+    }
+}
